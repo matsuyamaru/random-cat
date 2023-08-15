@@ -30,7 +30,7 @@ const IndexPage:NextPage<Props> = ({initialImageUrl}) =>{
     return (
         <div className={styles.page}>
             <button className={styles.button} onClick={handleClick}>
-                One more cat!
+                One more cat!!
             </button>
             <div className={styles.frame}>
                 {loading || <img className={styles.img} src={imageUrl}/>}
